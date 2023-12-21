@@ -1,0 +1,188 @@
+.signup-container {
+    height: 513px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 8px 24px #00000040;
+    position: fixed;
+    top: 0;
+    width: 736px;
+    color: black;
+  }
+ body{
+    font-family: 'IBM Plex Sans', sans-serif;
+ }
+  .header {
+    height: 50px;
+    width: 736px;
+    background-color: #eefff4;
+    border-radius: 8px 8px 0px 0px;
+    position: fixed;
+    top: 0;
+  }
+  
+  .label h1 {
+    height: 16px;
+    width: 619px;
+  }
+  
+  .header .label h1 {
+    color: #008944;
+    font-size: 14px;
+    font-weight: 500;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  /* #createac {
+    color: black;
+    font-size: 20px;
+    padding-top: 19px;
+    padding-left: 13px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 0;
+  } */
+  
+  .form-container {
+    margin: 0 auto; /* Center the form container */
+    margin-top: 50px; /* Adjusted margin-top */
+    padding: 20px;
+  }
+  
+  .name-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .name-container div {
+    width: 48%;
+    position: relative;
+  }
+  
+  .name-container div::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #ccc;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: calc(50% - 1px);
+    height: 30px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: white;
+    color:black;
+  }
+  
+  input ::after{
+    background-color: white;
+    color:black;
+  }
+  
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .password-input input {
+    width: calc(50% - 1px);
+    padding-right: 30px;
+    background-color: white;
+  }
+  
+  .password-input i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .create-account-btn {
+    background-color: #2f6ce5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 320px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  
+  .social-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .social-login-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px; /* Adjusted margin-right */
+  }
+  
+  .social-login-box i {
+    margin-right: 5px; /* Adjusted margin-right */
+  }
+  
+  .signin-link {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .terms-and-conditions {
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  .img {
+    width: 67px;
+    position: relative;
+    left: 500px;
+    bottom: 150px;
+  }
+.signup-container{
+    margin-left:0;
+    position: relative;
+    right:100px;
+    bottom:80px;
+}  
+.header{
+    position: absolute;
+    width:696px;
+}
+.header .label h1{
+    position:absolute;
+    top:125px;
+}
+#firstName,#lastName{
+    position: relative;
+    top:27px;
+}

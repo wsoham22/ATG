@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Noto+Sans+Old+Permic&display=swap');
+.root{
+    margin:0;
+},
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 72px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    left:0;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+.box {
+    margin: 0;
+}
+
+.box span .sirch,
+ul li #searchbar {
+    background-color: #f2f2f2;
+    border-radius: 21px;
+    height: 42px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+}
+
+ul li #searchbar input[type="text"] {
+    padding-left: 30px;
+    width: 100%;
+    border: none;
+    background: transparent;
+}
+
+span.searchicon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+/* Adjust placeholder styles as needed */
+ul li #searchbar input[type="text"]::placeholder {
+    font-size: 3px;
+    color: #999;
+}
+
+
+.whole {
+    background-image: url('./../../assets/mainpage/whole.svg');
+    background-size: 100% 100%;
+    height: 24px;
+    width: 163px;
+    margin: 14px 72px;
+}
+
+.text1 {
+    color: #ffffff;
+    font-family: "IBM Plex Sans-Bold", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    left: 200px;
+    top: 286px;
+}
+
+.text2 {
+    color: #ffffff;
+    font-family: "IBM Plex Sans-Regular", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.box2 {
+    background-image: url("./../../assets/mainpage/header.png");
+    background-size:cover;
+    height: 440px;
+    left: 0;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    margin-top: 72px;
+}
+
+body {
+    margin: 0;
+}
+#searchbar {
+    margin-top: 8px;
+    margin-bottom:14px; /* Adjust the top margin as needed */
+    height: 42px;
+    width: 360px;
+    border-radius: 21px;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 16 540 14 540 */
+#searchbar .label{
+    background:none;
+    border:0;
+    color:#5b5b5b;
+    font-size:14px;
+    font-weight: 400;
+    height:19px;
+    left:0;
+    letter-spacing: 0;
+    line-height: normal;
+    padding:0;
+    position: fixed;
+    top:0;
+    width:242px;
+    margin-top:28px;
+    position: relative;
+    left:590px;
+}
+#searchbar {
+    margin-top: 8px;
+    margin-bottom: 14px; /* Adjust the top margin as needed */
+    height: 42px;
+    width: 360px;
+    border-radius: 21px;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 30px; /* Adjust padding as needed */
+}
+
+#searchbar span.searchicon {
+    position: relative; /* Remove absolute positioning for relative positioning */
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+#sear{
+    color:#5b5b5b;
+    position: relative;
+    top:32px;
+    right:120px;
+    position: fixed;
+    left:605px;
+}
+
+#searchbar .label {
+    background: none;
+    border: 0;
+    border-color: transparent;
+    color: #5b5b5b;
+    font-size: 14px;
+    font-weight: 400;
+    height: 19px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    position: relative; /* Remove fixed positioning */
+    top: 0px;
+    width: 242px;
+    margin-left: 10px; /* Adjust margin as needed */
+
+    position: relative;
+    top:5px;
+    right:120px;
+    position: fixed;
+    left:635px;
+}
+.label {
+    height: 21px;
+    width: 183px;
+    display: flex;
+    align-items: center;
+}
+
+.label .create-account-it-s {
+    color: transparent;
+    font-family: "IBM Plex Sans-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: right;
+    position: absolute;
+    right:96px;
+    top:15px;
+}
+#searchbar input[type="text"]:focus {
+    outline: none;
+}
+
+
+.label .text-wrapper {
+    color: #2d2d2d;
+    font-weight: 500;
+}
+
+.label .span {
+    color: #2f6ce5;
+    font-family: "IBM Plex Sans-Bold", Helvetica;
+    font-weight: 700;
+}
+
+/* Style for the drop-down arrow */
+.arrow-down {
+    margin-left: 5px;
+    cursor: pointer;
+    color:black;
+    width:24px;
+}
+
+.box2{
+    position: fixed;
+    top:0;
+    width:1440px;
+    height:440px;
+    left:0;
+}
+.box2 .text1{
+    position: absolute;
+    top:286px;
+    left:200px;
+}
+.box2 .text2{
+    position: absolute;
+    top:337px;
+    left:198px;
+}

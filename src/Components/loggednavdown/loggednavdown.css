@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Noto+Sans+Old+Permic&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: white;
+}
+
+ul {
+    margin-top: 32px;
+    list-style-type: none;
+    padding: 20px;
+    position: absolute;
+    left: 200px;
+}
+
+.label {
+    display: flex;
+    height: 21px;
+    width: 93px;
+}
+
+.text-wrapper {
+    font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+#one {
+    color: black;
+}
+
+#two, #three, #four, #five {
+    color: #8A8A8A;
+}
+
+.box {
+    height: 36px;
+    width: 133px;
+    margin-top: 32px;
+    position: fixed;
+    left: 906px;
+    bottom:675px;
+    
+}
+
+.box .rectangle {
+    background-color: #edeeef;
+    border-radius: 4px;
+    height: 36px;
+    width: 133px;
+    bottom: 365px;
+}
+
+.box2 {
+    height: 36px;
+    width: 125px;
+    position: fixed;
+    top: 0;
+    left: 1115px;
+}
+
+/* Common styles for .box and .box2 */
+.box2 {
+    height: 36px;
+    position: fixed;
+    top: 0;
+    border-radius: 4px;
+    margin-top: 32px;
+}
+
+/* Styles for .box */
+.box .rectangle {
+    background-color: #edeeef;
+    width: 133px;
+}
+
+/* Styles for .box2 */
+.box2 .rectangle2 {
+    background-color: #2f6ce5;
+    border-radius: 4px;
+    height: 36px;
+    width: 125px;
+}
+
+.box2 .rectangle2 {
+    background-color: #2f6ce5;
+    color: white;
+    width: 125px;
+    position: absolute;
+    top:0;
+}
+
+/* Common styles for .label in both .box and .box2 */
+.label {
+    display: flex;
+    height: 21px;
+    width: 83px;
+    background: none;
+    border: 0;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    position: fixed;
+    top: 0;
+}
+
+#userplus {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 8px;
+    top: 6px;
+}
+
+#joingroup {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    bottom:5px;
+    left:9px;
+}
+
+#downarrow {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    color: black;
+    position: absolute;
+}
+
+.label {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.label {
+    position: fixed;
+    top: 25px;
+    background: transparent;
+    color: #000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12.9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    padding-left: 14px;
+}
+
+#downarrow {
+    width: 20px;
+    height: 15px;
+    flex-shrink: 0;
+    color: black;
+    position: absolute;
+    right: 4px;
+    top: 10px;
+}
+
+/* Responsive classes using Bootstrap v5 */
+@media (max-width: 991.98px) {
+    .box,
+    .box2 {
+        position: static;
+        width: 100%;
+        margin-top: 0;
+        left: 0;
+    }
+
+    .box .rectangle,
+    .box2 .rectangle2 {
+        position: static;
+        width: 100%;
+        bottom: auto;
+        top: auto;
+    }
+}

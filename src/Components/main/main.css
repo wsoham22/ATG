@@ -1,0 +1,201 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.box{
+    height:472px;
+    width:692px;
+}
+.box .rectangle{
+    background-color: #ffffff;
+    border:1px solid;
+    border-color: #e0e0e0;
+    border-radius: 4px;
+    height:474px;
+    left:0;
+    position: fixed;
+    top:0;
+    width:694px;
+}
+.rectangle .image1{
+    /* background-image: url("Group 2.svg"); */
+    background-color: red;
+    background-image: url("./../../assets/mainpage/header.png");
+    margin-left: 200px;
+    margin-top: 24px;
+    height:220px;
+    width:692px;
+    left:0;
+    position: fixed;
+    top:0;
+}
+.font{
+    color: #6c6969;
+    font-size:18px;
+    font-weight:550;
+    left:0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top:240px;
+    left:20px;
+}
+.label{
+    height:60px;
+    width:600px;
+    margin-top:270px;
+    left:140px;
+}
+.label .textwrapper{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+    left:0;
+    letter-spacing: 0;
+    line-height: 29.5px;
+    width:600px;
+}
+.label2{
+    height:25px;
+    width:62px;
+    margin-top: 340px;
+    position: relative;
+    left:0px;
+    
+}
+.label2 .textwrapper2{
+    color:#5b5b5b;
+    font-size: 19px;
+    font-weight: 400;
+    left:0;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    width:652px;
+}
+.rectangle{
+    position: relative;
+    left:200px;
+    margin-top:24px;
+    margin-left: 200px;
+}
+span #threedots{
+    position: relative;
+    left: 86px;
+    width:30px;
+}
+#img{
+    height:48px;
+    width:48px;
+    object-fit: cover;
+    position: relative;
+    right:200px;
+    bottom:20px;
+}
+#sarthak{
+    height:60px;
+    width:600px;
+    color: black;
+    position: relative;
+    bottom:7px;
+    right:440px;
+
+}
+#bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction:inline;
+    color:black;
+    position: relative;
+    right:680px;
+    bottom:px;
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    color: black;
+    position: relative;
+    right: 680px;
+    bottom: 0; /* Adjust the bottom value as needed */
+}
+#view{
+    position: relative;
+    left:7px;
+    bottom:4px;
+    display: inline;
+}
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .box2, .box3, .box4 {
+    margin-top: 32px; 
+    height:472px;
+    width:692px;
+    display: flex;
+    flex-direction: column;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+}
+
+.box, .box2, .box3, .box4 {
+    margin-top: 32px;
+    height: 472px;
+    width: 692px;
+}
+
+.box .rectangle, .box2 .rectangle, .box3 .rectangle, .box4 .rectangle {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    border-radius: 4px;
+    height: 474px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 694px;
+}
+.side{
+    position: relative;
+    left:300px;
+    color:black;
+    bottom:100px;
+color: #000;
+
+
+font-family: IBM Plex Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+}
+#grp{
+    position: relative;
+    bottom:17px;
+}
+.location-icons{
+    position: relative;
+    left:630px;
+    color:rgb(138, 136, 136);
+    top:5px;
+    padding:15px;
+    margin:5px;
+    top:400px;
+
+}
+#para{
+    color:rgb(38, 38, 38);
+    margin-top:3px;
+}
+.footer,.label2{
+    position: relative;
+    bottom:70px;
+}
